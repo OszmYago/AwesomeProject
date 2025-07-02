@@ -1,9 +1,11 @@
 import { View, Text } from 'react-native';
+import * as styled from './styles';
+import { Modal } from '../../components/Modal';
 
 export const Home = () => {
   return (
-    <View>
-      <Text style={{ fontSize: 24, fontWeight: 'bold' }}>Teste</Text>
-    </View>
+    <styled.background>
+      <Modal />
+    </styled.background>
   );
 };
